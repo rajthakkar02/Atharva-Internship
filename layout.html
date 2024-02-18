@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        header {
+            background-color: gray;
+            height: 110px;
+            margin-bottom: 10px;
+            width: 100%;
+        }
+
+        header>p {
+            font-size: larger;
+            margin: 0px;
+            padding-top: 50px;
+            text-align: center;
+        }
+
+        div {
+            display: flex;
+        }
+
+        aside {
+            background-color: grey;
+            height: 500px;
+            margin-right: 10px;
+            text-align: center;
+            width: 20%;
+        }
+
+        aside > p {
+            font-size: larger;
+            padding-top: 200px;
+        }
+
+        main {
+            background-color: gray;
+            display: inline-block;
+            height: 500px;
+            text-align: center;
+            width: 79%;
+        }
+
+        main > p {
+            font-size: larger;
+            padding-top: 200px;
+        }
+
+        footer {
+            background-color: gray;
+            height: 70px;
+            text-align: center;
+            width: 100%;
+        }
+
+        footer > p {
+            font-size: larger;
+            padding-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <p>Header</p>
+    </header>
+
+    <div>
+        <aside>
+            <p>Sidebar</p>
+        </aside>
+    
+        <main>
+            <p>Main content</p>
+        </main>
+    </div>
+
+    <footer>
+        <p>Footer</p>
+    </footer>
+</body>
+
+</html>
